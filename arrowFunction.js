@@ -4,8 +4,9 @@ const multiply = (x,y) => x*y;
 }
 
 
-const greetName = (name) => 
+const newName = (name) => 
  {
-    console.log("Hello,"+name)
+    console.log(name);
 }
-greetName("MD Shahin Mahmud");
+// greetName("MD Shahin Mahmud");
+newName('Md Shahin Mahmud')
